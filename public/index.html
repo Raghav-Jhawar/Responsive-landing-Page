@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>landing page
+    </title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="relative container mx-auto p-8">
+
+        <div class="flex items-center justify-between">
+
+            <!-- logo -->
+            <logo class="pt-2 cursor-pointer">
+                <img src="../img/logo.svg" alt="">
+            </logo>
+    
+            <!-- menu -->
+            <menu class="hidden lg:flex">
+                <a href="https://www.google.com"  class="mr-5 cursor-pointer hover:text-raghav">Home</a>
+                <a href="#"  class="mr-5 cursor-pointer hover:text-raghav">About</a>
+                <a href="#"  class="mr-5 cursor-pointer hover:text-raghav">Pricing</a>
+                <a href="#"  class="mr-5 cursor-pointer hover:text-raghav">Career</a>
+                <a href="#"  class="mr-5 cursor-pointer hover:text-raghav">Community</a>
+            </menu>
+    
+            <!-- button -->
+            <a id="btn" href="#" class="hidden lg:block text-white bg-raghav px-4 py-2 rounded-3xl hover:text-raghav hover:bg-gray-100">Get Started</a>
+            
+            <!-- Hamburger icon -->
+            <button id="menu-btn" class="hamburger block focus:outline-none lg:hidden">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+            
+        </div>
+        
+        
+        <!-- Mobile Menu -->
+        <div class="lg:hidden">
+            <div id="menu"
+                class=" hidden flex absolute flex-col items-center space-y-6 bg-white font-bold py-8 mt-10 self-end left-6 right-6 drop-shadow-md rounded-lg">
+                <a href="#" class="hover:text-raghav hover:underline">Home</a>
+                <a href="#" class="hover:text-raghav hover:underline">About</a>
+                <a href="#" class="hover:text-raghav hover:underline">Pricing</a>
+                <a href="#" class="hover:text-raghav hover:underline">Community</a>
+                <a href="#" class="hover:text-raghav hover:underline">Privacy Policy</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <Section id="hero" class="">
+        <!-- flex container -->
+        <div class="container flex flex-col-reverse md:flex-row  mx-auto p-6 items-center space-y-0 md:space-y-0">
+            <!-- left side -->
+            <div class="md:w-1/2 mb-32">
+                <!-- heading of left -->
+                <h1 class="font-bold max-w-md text-center md:text-left text-4xl mt-4 md:text-5xl">
+                    Bring Everyone together to build better products
+                </h1>
+
+                <!-- paragraph of left -->
+                <p class="mt-8 max-w-md text-center md:text-left text-gray-500">
+                    Manage makes it simple for the development teams to plan day-to-day task while keeping the larger team goals in view
+                </p>
+
+                <!-- button of left -->
+               <div class="flex justify-center md:justify-start mt-8">
+                    <a href="#" class=" text-white bg-raghav px-4 py-2 rounded-3xl hover:text-raghav hover:bg-gray-100 ">Get
+                    Started</a>
+               </div>
+            </div>
+
+            <!-- right side containing images -->
+            <div class="md:w-1/2 ">
+                <img src="../img/illustration-intro.svg" alt="" class="">
+            </div>
+        </div>
+    </Section>
+
+    <!-- features section  -->
+    <section id="features">
+        <div class="container mx-auto flex flex-col space-y-12 md:space-y-0 md:flex-row">
+            <!-- left side -->
+            <div class="flex flex-col text-center md:w-1/2 md:text-left">
+                <h1 class="font-bold text-2xl  md:text-left md:text-4xl max-w-md">
+                    What's different about Manage ?
+                </h1>
+
+                <p class=" md:text-left mt-8 text-gray-500 md:max-w-sm" >
+                    Manage provides all the facilities your team needs, without any complexities. Our software is tailor-made for modern digital product teams.
+                </p>
+            </div>
+
+            <!-- right side -->
+            <div class="md:w-1/2 flex flex-col mt-2 lg:mt-0">
+               <div class="flex  py-5">
+                    <div class="mr-4">
+                        <button class="py-1 px-2 bg-raghav text-white rounded-3xl">
+                            01
+                        </button>
+                    </div>
+
+                    <div>
+                        <h1 class="text-xl font-bold">
+                            Track company wise progress
+                        </h1>
+
+                        <p class="text-gray-500 mt-4">
+                            See how your day-to-day trasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
+                        </p>
+                    </div>
+               </div>
+
+               <div class="flex py-5">
+                   <div class="mr-4">
+                        <button class="py-1 px-2 bg-raghav text-white rounded-3xl">
+                            02
+                        </button>
+                    </div>
+
+
+                    <div>
+                        <h1 class="text-xl font-bold">
+                            Advance built-in reports
+                        </h1>
+
+                        <p class="text-gray-500 mt-4">
+                            See internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the rreports you need to keep key stakeholders informed.
+                        </p>
+                    </div>
+               </div>
+
+
+               <div class="flex py-5">
+
+                    <div class="mr-4">
+                        <button class="py-1 px-2 bg-raghav text-white rounded-3xl">03</button>
+                    </div>
+
+                    <div>
+                        <h1 class="text-xl font-bold">
+                            Everything you need in one place
+                        </h1>
+
+                        <p class="text-gray-500 mt-4">
+                            Stop jumping from one place to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.
+                        </p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testinomials -->
+
+    <section id="testinomials" class="my-32 flex flex-col items-center  lg:my-20">
+
+        <h2 class="text-3xl font-bold text-center font-sans lg:text-4xl">What is Different about Manage ?</h2>
+        <div class="flex flex-col my-10 lg:mt-28 lg:mb-16 lg:flex-row ">
+
+            <!-- testinomial-1 -->
+            <div class="flex flex-col items-center justify-center px-6  bg-slate-100 pb-4 mx-12 mt-20 lg:mt-0 rounded-3xl">
+                <div class="mb-4 bottom-48 -mt-12">
+                    <img src="/img/avatar-richard.png" class="w-24" alt="">
+                </div>
+
+                <div class="flex flex-col items-center justify-center font-sans">
+                    <h4 class="mb-4 text-2xl font-bold lg:4xl text-center">
+                        Raghav Jhawar
+                    </h4>
+
+                    <p class="font-sans text-center">
+                        Raghav is the CTO of Manage. Specialised in the field of Full stack who possess the technology including Node.js, mongoDB, Express.js. He controls all the developement process and give the best result to the clients.
+                    </p>
+                </div>
+            </div>
+
+            <!-- testinomial-2 -->
+            <div class="flex flex-col items-center justify-center px-6  bg-slate-100 pb-4 mx-12 mt-20 lg:mt-0 rounded-3xl">
+                <div class="mb-4 bottom-48 -mt-12">
+                    <img src="/img/avatar-shanai.png" class="w-24" alt="">
+                </div>
+            
+                <div class="flex flex-col items-center justify-center font-sans">
+                    <h4 class="mb-4 text-2xl font-bold lg:4xl text-center">
+                        Sanskar Soni
+                    </h4>
+            
+                    <p class="font-sans text-center">
+                        Sanskar is a Developer. Specialised in the field of Full stack who possess the technology including Node.js,
+                        mongoDB, Express.js. He controls all the developement process and give the best result to the clients.
+                    </p>
+                </div>
+            </div>
+
+            <!-- testinomial-3 -->
+            <div class="flex flex-col items-center justify-center px-6  bg-slate-100 pb-4 mx-12 mt-20 lg:mt-0 rounded-3xl">
+                <div class="mb-4 bottom-48 -mt-12">
+                    <img src="/img/avatar-ali.png" class="w-24" alt="">
+                </div>
+            
+                <div class="flex flex-col items-center justify-center font-sans">
+                    <h4 class="mb-4 text-2xl font-bold lg:4xl text-center">
+                        Harshit Agarwal
+                    </h4>
+            
+                    <p class="font-sans text-center">
+                        Harshit is the CMO of Manage, inspired by Aman Gupta. Specialised in the field of marketing who possess the technology including SEO, SMO.
+                        He controls all the ranking process of the websites.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- button -->
+        <a href="#" class=" text-white bg-raghav px-4 py-2 rounded-3xl hover:text-raghav hover:bg-gray-100">Get Started</a>
+
+    </section>
+
+    <!-- action -->
+
+    <section id="action">
+        <div class="flex flex-col  px-4 py-6 bg-raghav items-center justify-between md:px-16 md:py-10 md:flex-row">
+            <!-- heading -->
+            <h1 class="text-2xl text-white font-bold">Simplify how your team works today.</h1>
+
+            <!-- button -->
+            <a href="#" class="mt-10 bg-white text-raghav px-4 py-2 rounded-3xl hover:text-raghav hover:bg-gray-300 text-center md:mt-0">Get Started</a>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer" class="bg-black">
+
+        <!-- flex container of footer -->
+        <div class="flex flex-col-reverse justify-between container px-6 py-10 space-y-8 text-white mx-auto md:flex-row md:space-y-0 ">
+            
+            <!-- logo and social links -->
+            <div class="flex flex-col-reverse space-y-12 justify-between items-center md:flex-col md:items-start md:space-y-0">
+
+                <div class="mx-auto my-6 text-center md:hidden">
+                    copyright &copy; 2022. All rights reserved
+                </div>
+
+                <div id="logo">
+                    <img src="../img/logo-white.svg" class="h-8">
+                </div>
+
+                <div id="links" class="flex space-x-4 justify-center">
+                    <a href="https://www.facebook.com" class=" cursor-pointer"><img src="../img/icon-facebook.svg"  class="h-8" alt=""></a>
+                    <a href="https://www.youtube.com" class=" cursor-pointer"><img src="../img/icon-youtube.svg"  class="h-8" alt=""></a>
+                    <a href="http://www.instagram.com" class=" cursor-pointer"><img src="../img/icon-instagram.svg"  class="h-8" alt=""></a>
+                    <a href="https://www.twitter.com" class=" cursor-pointer"><img src="../img/icon-twitter.svg"  class="h-8" alt=""></a>
+                    <a href="https://www.pinterest.com" class=" cursor-pointer"><img src="../img/icon-pinterest.svg" class="h-8"  alt=""></a>
+                </div>
+
+            </div>
+
+            <!-- lists -->
+            <div class="flex justify-around space-x-8 md:items-center md:flex-col lg:items-start lg:flex-row ">
+                <div class="flex flex-col space-y-3">
+                    <a href="#" class="hover:text-raghav">Home</a>
+                    <a href="#" class="hover:text-raghav">Pricing</a>
+                    <a href="#" class="hover:text-raghav">Product</a>
+                    <a href="#" class="hover:text-raghav">About Us</a>
+                </div>
+    
+                <div class="flex flex-col space-y-3 md:mt-3 lg:mt-0">
+                    <a href="#" class="hover:text-raghav">Career</a>
+                    <a href="#" class="hover:text-raghav">Community</a>
+                    <a href="#" class="hover:text-raghav">Privacy Policy</a>
+                </div>
+            </div>
+
+            <!-- search bar -->
+
+            <div class="flex flex-col justify-between items-center">
+                <form action="">
+                    <div class="flea space-x-3">
+                        <input
+                         type="text" 
+                         class="flex-1 px-4 py-1 rounded-full focus:outline-none text-black" 
+                         placeholder="Updates in your inbox"
+                         >
+                        <input 
+                        type="button" 
+                        value="Go" 
+                        class="bg-raghav py-2 px-6 rounded-full cursor-pointer focus:outline-none hover:bg-red-500"
+                        >
+                    </div>
+                </form>
+
+                <div class="hidden md:block">
+                    <p>copyright &copy; 2022. All Rights reserved</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
